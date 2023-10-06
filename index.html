@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html>
+
+ <head>
+
+   <meta charset="utf-8">
+   <meta name="viewport" content="width=device-width">
+   <link rel="stylesheet" href="style.css">
+   <link rel="shortcut icon" href="./img/2023-07-27__2_-removebg-preview.png" type="image/x-icon">
+   <title>Logiatec</title>
+   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+   
+
+ </head>
+ <body>
+  <div class="body">
+  <header>
+    <div class="header">
+
+       <img src="./img/2023-07-27__2_-removebg-preview.png" alt="reciclar icono" class="icon" align="left">
+
+       <h1 class="Logiatec">Logiatec</h1>
+       <h5 class="frase">¡Bienvenido!
+       Reciclar nunca había sido tan divertido hasta que apareció Logiatec porque ahora serás recompensado
+       </h5>
+   <nav>
+  <ul class="botones">
+   <li class="boton inicio">
+    <a href="#inicio">Inicio</a>
+  </li>
+   <li class="boton mapa">
+    <a href="#mapa">Mapa</a>
+  </li>
+   <li class="boton reciclar">
+    <a href="#reciclar">Reciclar</a>
+  </li>
+   <li class="boton tus puntos">
+    <a href="#puntos">Tus Puntos</a>
+   </li>
+   <li class="boton galeria">
+    <a href="#galeria">Galeria</a>
+   </li>
+  </ul>
+</nav>
+   </div>
+
+  </header>
+  <main>
+    <div class="main">
+   <div class="flexbox-container m-3">
+     <div class="flexbox-item inicio" id="inicio">
+
+     <!--Inicio-->
+
+      
+     <h1 id="titulo" >Inicio</h1>
+<br>
+      <h3 class="preguntas">Nuestra historia</h3>
+      <br>
+
+      <p>Somos una iniciativa de Chicas En Tecnologia buscando aumentar los indices de reciclaje y disminuir los problemas ambientales generados por la basura.</p>
+      <br>
+
+      <h3 class="preguntas">¿Como utilizo la app?</h3>
+<br>
+      <p>La app cuenta con botones navegables en la parte de arriba, ¡tomate tu tiempo para explorar todas las secciones!!</p>
+ <br>
+      <h3 class="preguntas">¿Que beneficios puedo obtener?</h3>
+ <br>
+      <p>¡Con LogiaTec todos ganamos! Obtienes puntos dentro de la app que posteriormente puedes canjear por beneficios en distintos lugares.</p>
+<br>
+      <h3 class="preguntas">¿Porque reciclar es tan importante?</h3>
+<br>
+      <p>Es un simple gesto que ayuda a cuidar y preservar nuestro planeta, disminuyendo la explotación de recursos naturales y su impacto medioambiental, protegiendo a los ecosistemas y sus especies y preservando espacios naturales.</p>
+<br>
+    </div>
+
+    <div class="flexbox-item mapa" id="mapa">
+     <!--Mapa-->
+
+      <h1 id="titulo" >Mapa</h1>
+
+      <p>¡Busca tu ciudad para encontrar un centro de reciclaje cercano!</p>
+
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3282.0020539437273!2d-58.44584042500126!3d-34.65465106018862!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bccbc1d1f37e4b%3A0x71f69da77b7fc9f2!2sCentro%20de%20Reciclaje%20de%20la%20Ciudad!5e0!3m2!1ses-419!2sar!4v1690170937347!5m2!1ses-419!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+     </iframe>
+
+    </div>
+    <div class="flexbox-item reciclar" id="reciclar">
+      <!--Reciclar-->
+      <h1 id="titulo" >Reciclar</h1>
+      <p id="reciclar1"></p>
+      <p><a href="./sesion.html">Inicia sesion</a> y completa el formulario para obtener tu beneficio</p>
+      <br>
+
+      <h2>¿Que quieres hacer hoy?</h2>
+      <br>
+      
+      <label>
+         <input type="radio" name="accion" value="reciclar"> Reciclar
+      </label>
+      <br>
+      <label>
+         <input type="radio" name="accion" value="reutilizar"> Reutilizar
+      </label>
+      <br>
+      <h4>Sube un una foto de como reutilizaste tus residuos o del centro de reciclaje para conseguir tu beneficio</h4>
+      <br>
+
+      <input type="file" class="foto" id="archivo">
+     </div>
+
+     <!--Mis puntos-->
+     <div class="flexbox-item puntos" id="puntos">
+      <h1 id="titulo" >Mis puntos</h1>
+      <h2>Acá podés ver tus puntos</h2>
+      <h3>Tenes <span id="puntosUsuario">0</span> puntos, puedes canjearlos por los siguientes beneficios:</h3>
+      <br>
+
+      <div class="d-flex justify-content-evenly m-3">
+      <div class="card" style="width: 18rem;">
+        <img src="https://i.pinimg.com/564x/a0/96/ff/a096ff094f4eb2c63debcf8e3a3f1764.jpg" class="card-img-top" alt="beneficio">
+        <div class="card-body">
+          <h5 class="card-title">150 pts</h5>
+          <p class="card-text">30% de descuento en kit para comida amigable con el planeta.</p>
+          <a href="#" class="btn btn-success" id="btnBeneficio1">obtener beneficio</a>
+        </div>
+      </div>
+
+      <div class="card" style="width: 18rem;">
+        <img src="https://i.pinimg.com/564x/33/09/5f/33095fddec05f2c46e94c260a6def3e0.jpg" class="card-img-top" alt="beneficio">
+        <div class="card-body">
+          <h5 class="card-title">500 pts</h5>
+          <p class="card-text">tarjeta de regalo por $1000 en x tienda sustentable.</p>
+          <a href="#" class="btn btn-success" id="btnBeneficio2">obtener beneficio</a>
+        </div>
+      </div>
+
+      <div class="card" style="width: 18rem;">
+        <img src="https://i.pinimg.com/564x/8e/66/c6/8e66c6b445a691567c1b9f422fd0204c.jpg" class="card-img-top" alt="beneficio">
+        <div class="card-body">
+          <h5 class="card-title">1500 pts</h5>
+          <p class="card-text">kit de dental amigable con el medio ambiente de x marca.</p>
+          <a href="#" class="btn btn-success"id="btnBeneficio3">obtener beneficio</a>
+        </div>
+      </div>
+    </div>
+
+      <div class="d-flex justify-content-evenly m-3">
+       <div class="card" style="width: 18rem;">
+        <img src="https://i.pinimg.com/564x/35/7b/b9/357bb94ab836deb4cf3c3577a5fab953.jpg" class="card-img-top" alt="beneficio">
+        <div class="card-body">
+          <h5 class="card-title">700 pts</h5>
+          <p class="card-text">40% de descuento en productos de cera de abeja.</p>
+          <a href="#" class="btn btn-success"id="btnBeneficio4">obtener beneficio</a>
+        </div>
+      </div>
+     
+
+      <div class="card" style="width: 18rem;">
+        <img src="https://i.pinimg.com/564x/df/01/66/df016668d21c6b220503208554bc78d3.jpg" class="card-img-top" alt="beneficio">
+        <div class="card-body">
+          <h5 class="card-title">1200 pts</h5>
+          <p class="card-text">kit de shampoo y acondicionador solido, libre de plasticos.</p>
+          <a href="#" class="btn btn-success" id="btnBeneficio5">obtener beneficio</a>
+        </div>
+      </div>
+
+      <div class="card" style="width: 18rem;">
+        <img src="https://i.pinimg.com/564x/c9/50/32/c950322f2dd936abc990b5dd57341a97.jpg" class="card-img-top" alt="beneficio">
+        <div class="card-body">
+          <h5 class="card-title">750 pts</h5>
+          <p class="card-text">35% de descuento en maquillaje vegano y libre de plasticos</p>
+          <a href="#" class="btn btn-success" id="btnBeneficio6">obtener beneficio</a>
+        </div>
+      </div>
+      </div>
+   
+
+     <!--Galeria-->
+     <div class="flexbox-item galeria" id="galeria">
+       <h1 id="titulo" >Galeria</h1>
+       <h4>Acá podes ver fotos de como reciclar y reutilizar tus residuos</h4>
+       <img src="https://i.pinimg.com/564x/1a/11/63/1a11632b0d02580f4627be96d5d65968.jpg" alt="idea 1" class="img">
+       <img src="https://i.pinimg.com/564x/3f/83/49/3f834917f5e24505da10a292a7c7b49b.jpg" alt="idea 2" class="img">
+       <img src="https://i.pinimg.com/564x/7e/3c/8c/7e3c8c01c7d8fcede240c4f489cdba6f.jpg" alt="idea 3" class="img">
+       <img src="https://i.pinimg.com/564x/65/87/89/658789159bc9ed25e7affc9c28c7d70d.jpg" alt="idea 4" class="img">
+       <img src="https://i.pinimg.com/564x/59/1d/0f/591d0fbb0f44b0da24a156d852f6638c.jpg" alt="idea 5" class="img">
+       <img src="https://i.pinimg.com/564x/1f/57/1b/1f571b1a3d96ac6cfb851985e3fdcd7e.jpg" alt="idea 6" class="img">
+     </div>
+   </div>
+</div>
+  </main>
+  <footer>
+  <div class="footer">
+    <p>-Aplicacion ideada y maquetada por el equipo 3 de conectadas 2023-</p>
+  </div>
+  </footer>
+</div>
+<script src="script.js"></script>
+ </body>
+
+</html>

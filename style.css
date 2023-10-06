@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+.body {
+    background-color: #e8e2b5;
+}
+
+.header {
+    background-color: #92bf65;
+    padding: 15px;
+}
+
+.flexbox-container {
+    display: flex;
+    flex-flow: row wrap;
+    flex-wrap: row wrap;
+}
+
+.flexbox-item {
+    margin: 50px;
+}
+
+.main {
+    padding: 20px;
+}
+
+.footer {
+    padding: 20px; 
+    background-color: #92bf65;
+}
+.botones {
+    display: flex;
+    flex-direction: row ;
+    margin: 30px;
+    justify-content: space-around;
+    list-style: none;
+}
+
+.botones li a {
+    text-decoration: none;
+    color: aliceblue;
+    background-color: #198154;
+    border-radius: 5px;
+    border: 0;
+    padding: 10px 30px 10px 30px;
+    margin: 60px 20px 10px 20px;
+    transition: color 0.5s;
+}
+
+.botones li a:hover{
+ background-color: #248a26;
+}
+
+.img {
+    width: 300px;
+    height: 300px;
+    margin: 20px;
+}
+.icon {
+    width: 150px;
+    height: 150px;
+    margin: 20px;
+    margin-right: 40px;
+}
+.preguntas {
+    color: #115416;
+}
+
+h1 {
+    color: #0b360e;
+    font-family: 'Noto Sans JP', sans-serif;
+}
+
+.Logiatec {
+    font-size: 70px;
+    font-family: 'Satisfy', cursive;
+    font-weight: 100;
+    padding-top: 20px;
+}
+
+iframe {
+    margin: 10% 0% 10% 0%;
+}
+
+#titulo {
+    color: #2aa52c;
+}
+
+.form {
+    display: flex;
+    width: 100%;
+    margin: 10%;
+}
+
+input {
+    width: 100%;
+}
+
+.enviar {
+    margin: 10px;
+}
+
+body {
+    min-height: 100vh;
+}
+
+.email form {
+    display: flex;
+    flex-direction: column;
+   
+}
+
+.sesion {
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    width: 100%;
+    border-width: 100px;
+    border-color: #e8e2b5;
+}
+
+.altura {
+    height: 300px;
+    background-color: #e8e2b5;
+}
+
+.registro {
+    height: 30px;
+    width: 250px;
+}
+
+.form-container {
+    display: flex;
+    justify-content: center;
+}
